@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+	<style>
+		form{
+			background-color:lightblue;
+			width:400px;
+			margin:0 auto;
+			padding:20px;
+			text-align:center;
+		}
+		input{
+			width:100%;
+			height:40px;
+			margin:10px 0;
+		}
+		button{
+			background-color:blue;
+			color:#fff;
+			padding:10px;
+			font-size:18px;
+			width:100%;
+			margin:10px 0;
+			border:0;
+			border:0;
+			cursor:pointer;
+		}
+		button:hover{
+			opacity:0.8;
+		}
+		#result{
+			font-size:20px;
+			font-weight:600;
+			margin:10px;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<input type="text" id="height" placeholder="Enter your Height">
+		<input type="text" id="weight"placeholder="Enter your Weight">
+		<button>Calculate</button>
+		<div id="result"></div>
+	</form>
+	<script src="js/main.js"></script>
+</body>
+</html>
